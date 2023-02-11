@@ -35,6 +35,8 @@ Web api service that allows the users to trigger scan event by passing repositor
 2. code-scan-process-service
 Background service that runs when a message is added into the queue. Once a message in the queue is detected, a process will invoke the detect the vulnerabilities in the repository and store the result into the database. If any error occurs during the process, the process is added back to the queue to re-run again.
 
+3. Please see Guard Rails.pptx for the architecture design and environment variables
+
 <br/>
 
 <h2>Tools</h2>
